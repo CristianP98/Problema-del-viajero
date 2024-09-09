@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'tsp_project.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        default='postgresql://cristian_user:IoLHC4NLbmgxoOFSEn0XTPcaAlYmFEeY@dpg-crfg6oqj1k6c73dm6m2g-a.frankfurt-postgres.render.com/cristian',
         conn_max_age=600
     )
 }
